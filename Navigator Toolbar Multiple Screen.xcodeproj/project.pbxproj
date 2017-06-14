@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4E5A3861EF118E600CD8C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */; };
+		F4E5A3881EF118E600CD8C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A3871EF118E600CD8C33 /* ViewController.swift */; };
+		F4E5A38B1EF118E600CD8C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A3891EF118E600CD8C33 /* Main.storyboard */; };
+		F4E5A38D1EF118E600CD8C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A38C1EF118E600CD8C33 /* Assets.xcassets */; };
+		F4E5A3901EF118E700CD8C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A38E1EF118E700CD8C33 /* LaunchScreen.storyboard */; };
+		F4E5A3981EF11ABE00CD8C33 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A3971EF11ABE00CD8C33 /* Unknown.jpg */; };
+		F4E5A39C1EF1203900CD8C33 /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39B1EF1203900CD8C33 /* ic_home.png */; };
+		F4E5A39E1EF120E700CD8C33 /* ic_android.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39D1EF120E700CD8C33 /* ic_android.png */; };
+		F4E5A3A01EF1221000CD8C33 /* ic_send.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39F1EF1221000CD8C33 /* ic_send.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4E5A3821EF118E600CD8C33 /* Navigator Toolbar Multiple Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigator Toolbar Multiple Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E5A3871EF118E600CD8C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4E5A38A1EF118E600CD8C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4E5A38C1EF118E600CD8C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E5A38F1EF118E700CD8C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E5A3911EF118E700CD8C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E5A3971EF11ABE00CD8C33 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpg; path = ../../../../Desktop/Unknown.jpg; sourceTree = "<group>"; };
+		F4E5A39B1EF1203900CD8C33 /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home.png; sourceTree = "<group>"; };
+		F4E5A39D1EF120E700CD8C33 /* ic_android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_android.png; path = ../../../../Downloads/ic_android_black_24dp/ios/ic_android.imageset/ic_android.png; sourceTree = "<group>"; };
+		F4E5A39F1EF1221000CD8C33 /* ic_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_send.png; path = ../../../../Downloads/ic_send_black_24dp/ios/ic_send.imageset/ic_send.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E5A37F1EF118E600CD8C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4E5A3791EF118E600CD8C33 = {
+			isa = PBXGroup;
+			children = (
+				F4E5A3841EF118E600CD8C33 /* Navigator Toolbar Multiple Screen */,
+				F4E5A3831EF118E600CD8C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E5A3831EF118E600CD8C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A3821EF118E600CD8C33 /* Navigator Toolbar Multiple Screen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E5A3841EF118E600CD8C33 /* Navigator Toolbar Multiple Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5A39F1EF1221000CD8C33 /* ic_send.png */,
+				F4E5A39D1EF120E700CD8C33 /* ic_android.png */,
+				F4E5A39B1EF1203900CD8C33 /* ic_home.png */,
+				F4E5A3971EF11ABE00CD8C33 /* Unknown.jpg */,
+				F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */,
+				F4E5A3871EF118E600CD8C33 /* ViewController.swift */,
+				F4E5A3891EF118E600CD8C33 /* Main.storyboard */,
+				F4E5A38C1EF118E600CD8C33 /* Assets.xcassets */,
+				F4E5A38E1EF118E700CD8C33 /* LaunchScreen.storyboard */,
+				F4E5A3911EF118E700CD8C33 /* Info.plist */,
+			);
+			path = "Navigator Toolbar Multiple Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E5A3811EF118E600CD8C33 /* Navigator Toolbar Multiple Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E5A3941EF118E700CD8C33 /* Build configuration list for PBXNativeTarget "Navigator Toolbar Multiple Screen" */;
+			buildPhases = (
+				F4E5A37E1EF118E600CD8C33 /* Sources */,
+				F4E5A37F1EF118E600CD8C33 /* Frameworks */,
+				F4E5A3801EF118E600CD8C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigator Toolbar Multiple Screen";
+			productName = "Navigator Toolbar Multiple Screen";
+			productReference = F4E5A3821EF118E600CD8C33 /* Navigator Toolbar Multiple Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E5A37A1EF118E600CD8C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SNRU;
+				TargetAttributes = {
+					F4E5A3811EF118E600CD8C33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4E5A37D1EF118E600CD8C33 /* Build configuration list for PBXProject "Navigator Toolbar Multiple Screen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E5A3791EF118E600CD8C33;
+			productRefGroup = F4E5A3831EF118E600CD8C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E5A3811EF118E600CD8C33 /* Navigator Toolbar Multiple Screen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E5A3801EF118E600CD8C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E5A3901EF118E700CD8C33 /* LaunchScreen.storyboard in Resources */,
+				F4E5A3A01EF1221000CD8C33 /* ic_send.png in Resources */,
+				F4E5A38D1EF118E600CD8C33 /* Assets.xcassets in Resources */,
+				F4E5A3981EF11ABE00CD8C33 /* Unknown.jpg in Resources */,
+				F4E5A38B1EF118E600CD8C33 /* Main.storyboard in Resources */,
+				F4E5A39C1EF1203900CD8C33 /* ic_home.png in Resources */,
+				F4E5A39E1EF120E700CD8C33 /* ic_android.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E5A37E1EF118E600CD8C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E5A3881EF118E600CD8C33 /* ViewController.swift in Sources */,
+				F4E5A3861EF118E600CD8C33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4E5A3891EF118E600CD8C33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E5A38A1EF118E600CD8C33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4E5A38E1EF118E700CD8C33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E5A38F1EF118E700CD8C33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E5A3921EF118E700CD8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E5A3931EF118E700CD8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E5A3951EF118E700CD8C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navigator Toolbar Multiple Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DEKIT.weerapat.Navigator-Toolbar-Multiple-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4E5A3961EF118E700CD8C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navigator Toolbar Multiple Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DEKIT.weerapat.Navigator-Toolbar-Multiple-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E5A37D1EF118E600CD8C33 /* Build configuration list for PBXProject "Navigator Toolbar Multiple Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E5A3921EF118E700CD8C33 /* Debug */,
+				F4E5A3931EF118E700CD8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E5A3941EF118E700CD8C33 /* Build configuration list for PBXNativeTarget "Navigator Toolbar Multiple Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E5A3951EF118E700CD8C33 /* Debug */,
+				F4E5A3961EF118E700CD8C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E5A37A1EF118E600CD8C33 /* Project object */;
+}
