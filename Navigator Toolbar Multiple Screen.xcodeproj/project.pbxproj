@@ -16,6 +16,7 @@
 		F4E5A39C1EF1203900CD8C33 /* ic_home.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39B1EF1203900CD8C33 /* ic_home.png */; };
 		F4E5A39E1EF120E700CD8C33 /* ic_android.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39D1EF120E700CD8C33 /* ic_android.png */; };
 		F4E5A3A01EF1221000CD8C33 /* ic_send.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A39F1EF1221000CD8C33 /* ic_send.png */; };
+		F4E5A3A21EF1390200CD8C33 /* CecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A3A11EF1390200CD8C33 /* CecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F4E5A39B1EF1203900CD8C33 /* ic_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_home.png; path = ../../../../Downloads/ic_home_black_24dp/ios/ic_home.imageset/ic_home.png; sourceTree = "<group>"; };
 		F4E5A39D1EF120E700CD8C33 /* ic_android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_android.png; path = ../../../../Downloads/ic_android_black_24dp/ios/ic_android.imageset/ic_android.png; sourceTree = "<group>"; };
 		F4E5A39F1EF1221000CD8C33 /* ic_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_send.png; path = ../../../../Downloads/ic_send_black_24dp/ios/ic_send.imageset/ic_send.png; sourceTree = "<group>"; };
+		F4E5A3A11EF1390200CD8C33 /* CecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				F4E5A3971EF11ABE00CD8C33 /* Unknown.jpg */,
 				F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */,
 				F4E5A3871EF118E600CD8C33 /* ViewController.swift */,
+				F4E5A3A11EF1390200CD8C33 /* CecondViewController.swift */,
 				F4E5A3891EF118E600CD8C33 /* Main.storyboard */,
 				F4E5A38C1EF118E600CD8C33 /* Assets.xcassets */,
 				F4E5A38E1EF118E700CD8C33 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E5A3A21EF1390200CD8C33 /* CecondViewController.swift in Sources */,
 				F4E5A3881EF118E600CD8C33 /* ViewController.swift in Sources */,
 				F4E5A3861EF118E600CD8C33 /* AppDelegate.swift in Sources */,
 			);
