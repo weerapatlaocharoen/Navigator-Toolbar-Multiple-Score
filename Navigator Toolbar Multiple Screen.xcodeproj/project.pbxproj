@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47ECE811EF236A800C92A66 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47ECE801EF236A800C92A66 /* BG.jpg */; };
+		F47ECE831EF2374A00C92A66 /* iphon6bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F47ECE821EF2374A00C92A66 /* iphon6bg.png */; };
+		F47ECE851EF238E300C92A66 /* ABCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47ECE841EF238E300C92A66 /* ABCViewController.swift */; };
 		F4E5A3861EF118E600CD8C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */; };
 		F4E5A3881EF118E600CD8C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E5A3871EF118E600CD8C33 /* ViewController.swift */; };
 		F4E5A38B1EF118E600CD8C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E5A3891EF118E600CD8C33 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F47ECE801EF236A800C92A66 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = ../../../../Desktop/BG.jpg; sourceTree = "<group>"; };
+		F47ECE821EF2374A00C92A66 /* iphon6bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphon6bg.png; path = ../../../../Desktop/iphon6bg.png; sourceTree = "<group>"; };
+		F47ECE841EF238E300C92A66 /* ABCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABCViewController.swift; sourceTree = "<group>"; };
 		F4E5A3821EF118E600CD8C33 /* Navigator Toolbar Multiple Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigator Toolbar Multiple Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E5A3851EF118E600CD8C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E5A3871EF118E600CD8C33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +70,8 @@
 		F4E5A3841EF118E600CD8C33 /* Navigator Toolbar Multiple Screen */ = {
 			isa = PBXGroup;
 			children = (
+				F47ECE821EF2374A00C92A66 /* iphon6bg.png */,
+				F47ECE801EF236A800C92A66 /* BG.jpg */,
 				F4E5A39F1EF1221000CD8C33 /* ic_send.png */,
 				F4E5A39D1EF120E700CD8C33 /* ic_android.png */,
 				F4E5A39B1EF1203900CD8C33 /* ic_home.png */,
@@ -72,6 +80,7 @@
 				F4E5A3871EF118E600CD8C33 /* ViewController.swift */,
 				F4E5A3A11EF1390200CD8C33 /* CecondViewController.swift */,
 				F4E5A3891EF118E600CD8C33 /* Main.storyboard */,
+				F47ECE841EF238E300C92A66 /* ABCViewController.swift */,
 				F4E5A38C1EF118E600CD8C33 /* Assets.xcassets */,
 				F4E5A38E1EF118E700CD8C33 /* LaunchScreen.storyboard */,
 				F4E5A3911EF118E700CD8C33 /* Info.plist */,
@@ -141,9 +150,11 @@
 				F4E5A3901EF118E700CD8C33 /* LaunchScreen.storyboard in Resources */,
 				F4E5A3A01EF1221000CD8C33 /* ic_send.png in Resources */,
 				F4E5A38D1EF118E600CD8C33 /* Assets.xcassets in Resources */,
+				F47ECE831EF2374A00C92A66 /* iphon6bg.png in Resources */,
 				F4E5A3981EF11ABE00CD8C33 /* Unknown.jpg in Resources */,
 				F4E5A38B1EF118E600CD8C33 /* Main.storyboard in Resources */,
 				F4E5A39C1EF1203900CD8C33 /* ic_home.png in Resources */,
+				F47ECE811EF236A800C92A66 /* BG.jpg in Resources */,
 				F4E5A39E1EF120E700CD8C33 /* ic_android.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +169,7 @@
 				F4E5A3A21EF1390200CD8C33 /* CecondViewController.swift in Sources */,
 				F4E5A3881EF118E600CD8C33 /* ViewController.swift in Sources */,
 				F4E5A3861EF118E600CD8C33 /* AppDelegate.swift in Sources */,
+				F47ECE851EF238E300C92A66 /* ABCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +333,7 @@
 				F4E5A3961EF118E700CD8C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         showMessage(strMessage: "Click increaseNumber")
         intNumber += 1
         if intNumber >= 11 {
-            intNumber += 1
+            intNumber = 1
         }
 
         ShowNumber(intNumber: intNumber)

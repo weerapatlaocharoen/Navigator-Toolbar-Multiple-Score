@@ -1,58 +1,51 @@
 //
-//  CecondViewController.swift
+//  ABCViewController.swift
 //  Navigator Toolbar Multiple Screen
 //
-//  Created by Student06 on 6/14/2560 BE.
+//  Created by Student06 on 6/15/2560 BE.
 //  Copyright © 2560 SNRU. All rights reserved.
 //
 
 import UIKit
 
-class CecondViewController: UIViewController {
+class ABCViewController: UIViewController {
+    
+    
     
     //Explicit
-    let strArrayNumber = ["One", "Two", "Three" ,"Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+    let strArrayNumber = ["A", "B", "B" ,"D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
     var intIndex = 0
     
- 
-    @IBAction func inNextSecond(_ sender: Any) {
+
+    @IBAction func NextButton(_ sender: Any) {
         if intIndex <= strArrayNumber.count {
             intIndex += 1
         }else{
-        intIndex = 0
-        
+            intIndex = 0
+            
         }
-        ShowLabel.text = strArrayNumber[intIndex]
-        
+        ShowMassege.text = strArrayNumber[intIndex]
+
     }
-    
-    
-    @IBAction func deBackSecond(_ sender: Any) {
-        
+
+    @IBAction func BackButton(_ sender: Any) {
         if intIndex <= strArrayNumber.count {
             intIndex -= 1
         }else{
-           intIndex = 0
+            intIndex = 0
             
         }
-        ShowLabel.text = strArrayNumber[intIndex]
+        ShowMassege.text = strArrayNumber[intIndex]
     }
     
+    @IBOutlet weak var ShowMassege: UILabel!
     
-    @IBOutlet weak var ShowLabel: UILabel!
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        print("This is SecondViewController")
-        
-        
     }
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
